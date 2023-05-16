@@ -1,6 +1,6 @@
 #include <iostream>
-#include "../include/CoordinateSys.hpp"
-#include "../include/Point.hpp"
+#include "CoordinateSys.hpp"
+#include "Point.hpp"
 
 
 int main()
@@ -9,6 +9,7 @@ int main()
 
 
     std::cout << p.get<Cartesian::z>() << std::endl;
+    std::cout << p << std::endl;
 
     return 0;
 }
