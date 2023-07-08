@@ -1,6 +1,8 @@
 #include <iostream>
 #include "CoordinateSys.hpp"
 #include "Point.hpp"
+#include "Point.hpp"
+
 
 
 int main()
